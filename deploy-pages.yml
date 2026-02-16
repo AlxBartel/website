@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'arxiv-papers.html'
+      - 'index.html'
   workflow_dispatch:
 
 # Allow only one concurrent deployment
