@@ -20,11 +20,6 @@ AUTHORS = [
         'type': 'arxiv'  # 'arxiv' or 'orcid'
     },
     {
-        'name': 'Ross Paterson',
-        'id': 'paterson_r_1',
-        'type': 'arxiv'  # 'arxiv' or 'orcid'
-    },
-    {
         'name': 'Dan Loughran',
         'id': '0000-0001-5892-1564',
         'type': 'orcid'  # 'arxiv' or 'orcid'
