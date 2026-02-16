@@ -3,7 +3,7 @@ name: Update arXiv Papers
 on:
   schedule:
     # Run daily at 6 AM UTC
-    - cron: '0 6 * * *'
+    - cron: '0 12 * * *'
   workflow_dispatch:  # Allow manual trigger
 
 # Ensure only one workflow runs at a time
@@ -36,7 +36,7 @@ jobs:
     - name: Check if there are changes
       id: check_changes
       run: |
-        git add arxiv-papers.html
+        git add index.html
         if git diff --staged --quiet; then
           echo "changed=false" >> $GITHUB_OUTPUT
         else
@@ -53,4 +53,4 @@ jobs:
     
     - name: No changes
       if: steps.check_changes.outputs.changed == 'false'
-      run: echo "No changes to arxiv-papers.html"
+      run: echo "No changes to index.html"
