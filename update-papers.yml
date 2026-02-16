@@ -3,7 +3,7 @@ name: Update arXiv Papers
 on:
   schedule:
     # Run daily at 6 AM UTC
-    - cron: '0 6 * * *'
+    - cron: '7 1 * * *'
   workflow_dispatch:  # Allow manual trigger
 
 # Ensure only one workflow runs at a time
