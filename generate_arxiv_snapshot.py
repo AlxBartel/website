@@ -24,6 +24,11 @@ AUTHORS = [
         'id': '0000-0001-5892-1564',
         'type': 'orcid'  # 'arxiv' or 'orcid'
     },
+    {
+        'name': 'Rachel Newton',
+        'id': '0000-0003-4925-635X',
+        'type': 'orcid'  # 'arxiv' or 'orcid'
+    },
     # Add more authors here as needed
 ]
 
