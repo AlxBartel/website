@@ -36,7 +36,7 @@ AUTHORS = [
 MAX_PAPERS_PER_AUTHOR = 20
 
 # Output file path
-OUTPUT_FILE = 'index.html'
+OUTPUT_FILE = 'arxiv-papers.html'
 
 
 def fetch_author_feed(author):
