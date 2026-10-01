@@ -25,10 +25,25 @@ AUTHORS = [
         'type': 'orcid'  # 'arxiv' or 'orcid'
     },
     {
+        'name': 'Adam Morgan',
+        'id': '0000-0003-2824-9070',
+        'type': 'orcid'  # 'arxiv' or 'orcid'
+    },
+    {
         'name': 'Rachel Newton',
         'id': '0000-0003-4925-635X',
         'type': 'orcid'  # 'arxiv' or 'orcid'
     },
+    {
+        'name': 'Tim Santens',
+        'id': 'santens_t_1',
+        'type': 'arxiv'  # 'arxiv' or 'orcid'
+    },
+    {
+        'name': 'Ross Paterson',
+        'id': 'paterson_r_1',
+        'type': 'arxiv'
+    }
     # Add more authors here as needed
 ]
 
