@@ -301,7 +301,7 @@ def generate_html(all_author_papers):
                 {escape(', '.join(paper['authors']))}
             </div>
             <div class="paper-meta">
-                <span>📅 {format_date(paper['published'])}</span>
+                <span>📅 {format_date(paper['updated'])}</span>
 """
             
             if paper['arxiv_id']:
